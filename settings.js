@@ -22,7 +22,7 @@ const firestore = {
     collectionName: 'valentines',
     docID: 'test'
 };
-var random = Math.floor(Math.random() * 5);
+var random = Math.floor(Math.random() * 6);
 var yes1='';
 switch (random) {
   case 1:
