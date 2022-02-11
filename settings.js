@@ -22,8 +22,8 @@ const firestore = {
     collectionName: 'valentines',
     docID: 'test'
 };
-
-var random = Math.floor(Math.random() * 3);
+https://media.giphy.com/media/7frSUXgbGqQPKNnJRS/giphy.gif
+var random = Math.floor(Math.random() * 4);
 var yes1='';
 switch (random) {
   case 1:
@@ -34,6 +34,9 @@ switch (random) {
     break;
   case 3:
     yes1 = 'https://media.giphy.com/media/d3mnEmgej63Z4RIQ/giphy.gif';
+    break;
+   case 4:
+    yes1 = 'https://media.giphy.com/media/7frSUXgbGqQPKNnJRS/giphy.gif';
     break;
   default:
     yes1 = 'https://media.giphy.com/media/13V2lGH2cUYgzC/giphy.gif';
