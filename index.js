@@ -187,7 +187,9 @@ const setFirebaseDataToLocalObj = () => {
 /* GET TODAY'S DATE
 ---------------------------------------------------- */
 const getTimestamp = () => {
-    return new Date().toUTCString();
+    const d = new Date();
+    let text = d.toTimeString();
+    return text;
 };
 
 
