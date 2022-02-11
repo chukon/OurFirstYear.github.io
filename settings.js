@@ -23,7 +23,7 @@ const firestore = {
     docID: 'test'
 };
 https://media.giphy.com/media/7frSUXgbGqQPKNnJRS/giphy.gif
-var random = Math.floor(Math.random() * 4);
+var random = Math.floor(Math.random() * 5);
 var yes1='';
 switch (random) {
   case 1:
@@ -37,6 +37,9 @@ switch (random) {
     break;
    case 4:
     yes1 = 'https://media.giphy.com/media/7frSUXgbGqQPKNnJRS/giphy.gif';
+    break;
+    case 5:
+    yes1 = 'https://media.giphy.com/media/p2J2OMrBI6ErC/giphy.gif';
     break;
   default:
     yes1 = 'https://media.giphy.com/media/13V2lGH2cUYgzC/giphy.gif';
