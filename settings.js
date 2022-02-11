@@ -22,7 +22,6 @@ const firestore = {
     collectionName: 'valentines',
     docID: 'test'
 };
-https://media.giphy.com/media/7frSUXgbGqQPKNnJRS/giphy.gif
 var random = Math.floor(Math.random() * 5);
 var yes1='';
 switch (random) {
