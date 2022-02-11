@@ -50,7 +50,7 @@ const uiData = {
     valentinesFirstName: 'Lori',
     valentinesLastName: 'Konkol',
     headerMessage: 'Will you bee my Valentine? 🌹',
-    resultHeaderYes: 'You said yes! 🏓<br><small>refresh for more photos</small><br> 😍💚💜💚💕💜💚💜😘',
+    resultHeaderYes: 'You said yes! 🏓<br><br>😍💚💜💚💕💜💚💜😘',
     resultHeaderNo: 'You said no 😢',
     yesImgLink: yes1,
     noImgLink: 'https://media.giphy.com/media/wIhfELB4LvDhe/giphy.gif',
