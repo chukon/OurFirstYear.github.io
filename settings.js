@@ -23,6 +23,21 @@ const firestore = {
     docID: 'test'
 };
 
+var random = Math.floor(Math.random() * 3);
+var yes1='';
+switch (random) {
+  case 1:
+    yes1 = "https://media.giphy.com/media/xmXUarKqywPhS/giphy.gif";
+    break;
+  case 2:
+    yes1 = 'https://media.giphy.com/media/lEGpiFvQDX4U8/giphy.gif';
+    break;
+  case 3:
+    yes1 = 'https://media.giphy.com/media/lEGpiFvQDX4U8/giphy.gif';
+    break;
+  default:
+    yes1 = 'https://media.giphy.com/media/13V2lGH2cUYgzC/giphy.gif';
+}
 
 /* UI DATA
 -------------------------------- */
@@ -32,7 +47,7 @@ const uiData = {
     headerMessage: 'will you bee my Valentine? 🌹',
     resultHeaderYes: 'You said yes! 😍',
     resultHeaderNo: 'You said no 😢',
-    yesImgLink: 'https://media.giphy.com/media/7frSUXgbGqQPKNnJRS/giphy.gif',
+    yesImgLink: yes1,
     noImgLink: 'https://media.giphy.com/media/wIhfELB4LvDhe/giphy.gif',
     lastAnswerHeading: 'Last answered:',
 };
