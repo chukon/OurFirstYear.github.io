@@ -7,19 +7,23 @@
 /* FIREBASE CONFIG
 -------------------------------- */
 // PASTE YOUR WEB APP FIREBASE CONFIG HERE
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyA9VA3LCGeg9j4nwtg2aibgGteq0AYJhEY",
-  authDomain: "bemyvalentine-ca406.firebaseapp.com",
-  projectId: "bemyvalentine-ca406",
-  storageBucket: "bemyvalentine-ca406.appspot.com",
-  messagingSenderId: "892280027079",
-  appId: "1:892280027079:web:b9dece78e4037317f58be2"
+  apiKey: "AIzaSyBLYq5_RphAfVoZBMT79nndrToesizi960",
+  authDomain: "ourfirstyear-bc4f7.firebaseapp.com",
+  projectId: "ourfirstyear-bc4f7",
+  storageBucket: "ourfirstyear-bc4f7.appspot.com",
+  messagingSenderId: "471586419988",
+  appId: "1:471586419988:web:869cf22e48a5eaa6757e01",
+  measurementId: "G-T8JB9MKXDY"
 };
+
 
 /* CLOUD FIRESTORE CONFIG
 -------------------------------- */
 const firestore = {
-    collectionName: 'valentines',
+    collectionName: 'OurFirstYear',
     docID: 'test'
 };
 var random = Math.floor(Math.random() * 6);
@@ -49,7 +53,7 @@ switch (random) {
 const uiData = {
     valentinesFirstName: 'Lori',
     valentinesLastName: 'Konkol',
-    headerMessage: 'Will you bee my Valentine? 🌹',
+    headerMessage: 'Its almost one year! Will you say I Do again? 🌹',
     resultHeaderYes: 'You said yes! 🏓<br>😍💚💜💚💕💜💚💜😘',
     resultHeaderNo: 'You said no 😢',
     yesImgLink: yes1,
